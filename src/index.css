@@ -3,6 +3,36 @@
 @tailwind utilities;
 
 html {
-    background-color: grey;
     font-family: 'League Spartan', sans-serif;
+}
+
+.Link {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.Link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    bottom: -1px;
+    background-color: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.Link:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.HiddenAnimation {
+    opacity: 0;
+}
+
+.HiddenAnimationActive {
+    transition: opacity 5s ease-in-out;
+    opacity: 1;
 }
