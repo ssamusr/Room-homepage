@@ -1,5 +1,6 @@
 import './App.css'
-import { Footer, Header, Main } from './components'
+import { Footer, Main } from './components'
+import { Header } from './components/Header/Header'
 import { Provider } from './context/HeroProvider'
 
 function App () {
