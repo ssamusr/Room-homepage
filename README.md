@@ -5,9 +5,9 @@
 
 Reto de Frontend Mentor realizado con React y con Tailwind. Puedes ver el reto [AQUÍ!](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
 
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://room-homepage-weld-nu.vercel.app/)
-
 ![Laptop-1-1440x900](https://user-images.githubusercontent.com/110935809/219966191-7c899471-1464-45de-a989-26bc8378e909.png)
+
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://room-homepage-weld-nu.vercel.app/)
 
 # Configuración
 
