@@ -1,14 +1,16 @@
 import './App.css'
 import { Footer, Header, Main } from './components'
+import { Provider } from './context/HeroProvider'
 
 function App () {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <Provider>
+        <Header />
+        <Main />
+        <Footer />
+      </Provider>
     </>
-
   )
 }
 

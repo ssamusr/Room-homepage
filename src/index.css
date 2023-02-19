@@ -28,11 +28,3 @@ html {
     left: 0;
 }
 
-.HiddenAnimation {
-    opacity: 0;
-}
-
-.HiddenAnimationActive {
-    transition: opacity 5s ease-in-out;
-    opacity: 1;
-}
