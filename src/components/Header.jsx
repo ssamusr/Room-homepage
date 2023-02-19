@@ -28,10 +28,11 @@ export function Header () {
 
       <div className='col-start-1 col-end-4 row-start-1 row-end-3 relative lg:col-start-1 lg:col-end-5 lg:row-start-1 lg:row-end-3'>
         <Navbar />
-        <img src={bbdd[index].imgHero} alt={bbdd[index].alt} className='object-cover w-full h-full' />
+        <img src={bbdd[index].imgHero} alt={bbdd[index].alt} className='object-cover w-full h-full hidden lg:block' />
+        <img src={bbdd[index].imgHeroMobile} alt={bbdd[index].alt} className='object-cover w-full h-full lg:hidden' />
       </div>
 
-      <div className='col-start-3 col-end-4 row-start-2 row-end-3 lg:col-start-5 lg:col-end-6 lg:row-start-2 lg:row-end-3 lg:z-[1]'>
+      <div className='col-start-3 col-end-4 row-start-2 row-end-3 z-[1] lg:col-start-5 lg:col-end-6 lg:row-start-2 lg:row-end-3'>
         <button
           onClick={handlePrevius}
           className='bg-black w-1/2 h-full lg:hover:bg-light-gray'
@@ -48,7 +49,7 @@ export function Header () {
 
       <article className='flex flex-col justify-center items-start gap-6 p-10 col-start-1 col-end-4 row-start-3 row-end-4 lg:px-28 lg:col-start-5 lg:col-end-8 lg:row-start-1 lg:row-end-3'>
         <h1 className='text-3xl font-bold lg:text-4xl'>{bbdd[index].title}</h1>
-        <p className='text-base text-dark-gray'>{bbdd[index].text}</p>
+        <p className='text-base text-dark-gray h-48 lg:h-36'>{bbdd[index].text}</p>
         <button className='flex items-center gap-6 uppercase font-bold tracking-[0.3em] lg:tracking-[0.8em] lg:hover:text-light-gray lg:hover:fill-light-gray'>
           Shop Now
           <span>
