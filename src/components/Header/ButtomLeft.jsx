@@ -17,6 +17,7 @@ export function ButtomLeft ({ index, setIndex }) {
     <button
       onClick={handlePrevius}
       className='bg-black w-1/2 h-full lg:hover:bg-light-gray'
+      aria-label='backward button'
     >
       <IconAngleLeft className='mx-auto' />
     </button>

@@ -18,13 +18,14 @@ export function Navbar () {
         className='p-1 lg:hidden'
       >
         {
-            showMenu ? <IconClose /> : <IconHamburger />
+            showMenu ? <IconClose aria-label='close' /> : <IconHamburger aria-label='menu' />
         }
       </button>
 
       <a
         href='#'
         className={showMenu ? 'hidden' : 'p-1 mx-auto pr-[1.75rem] lg:mx-0'}
+        aria-label='room logo'
       >
         <IconLogo />
       </a>

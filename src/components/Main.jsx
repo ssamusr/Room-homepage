@@ -1,8 +1,11 @@
+import ImgDark from '../../public/assets/images/img-dark.jpg'
+import ImgLight from '../../public/assets/images/img-light.jpg'
+
 export function Main () {
   return (
     <main className='grid lg:grid-cols-7'>
       <section className='lg:col-start-1 lg:col-end-3'>
-        <img src='public/assets/images/Img-dark.jpg' alt='' className='object-cover w-full h-full' />
+        <img src={ImgDark} alt='Image Dark' className='object-cover w-full h-full' />
       </section>
 
       <section className='flex flex-col justify-center items-start gap-6 p-10 lg:px-16 lg:col-start-3 lg:col-end-6'>
@@ -11,7 +14,7 @@ export function Main () {
       </section>
 
       <section className='lg:col-start-6 lg:col-end-8'>
-        <img src='public/assets/images/Img-light.jpg' alt='' className='object-cover w-full h-full' />
+        <img src={ImgLight} alt='Image Light' className='object-cover w-full h-full' />
       </section>
     </main>
   )

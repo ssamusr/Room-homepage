@@ -17,6 +17,7 @@ export function ButtomRight ({ index, setIndex }) {
     <button
       onClick={handleNext}
       className='bg-black w-1/2 h-full lg:hover:bg-light-gray'
+      aria-label='forward button'
     >
       <IconAngleRight className='mx-auto' />
     </button>
