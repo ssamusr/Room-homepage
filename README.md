@@ -26,9 +26,9 @@ Por tanto, me ayudé de un croquis realizado en excalidraw para visualizar el gr
 
 ![Croquis (1)](https://user-images.githubusercontent.com/110935809/219966276-e144d061-11a0-4732-8fbc-87f90bc651bf.png)
 
-- Pensar en la escalabilidad del proyecto. ¿Y si mañana en vez de tres imágenes tenemos cinco imágenes? Apliqué useContext() y me ayudé de un provider para alimentar al proyecto sólo para practicar. En dicho provider creé un array de objectos que podría aumentar, disminuir o cambiar sin que afecté al diseño del proyecto.
-
 - TailwindCSS. Todos mis pequeños proyectos fueron aplicando CSS sin ayuda de ningún framework de CSS. La ventaja que encontré fue la rapidez de maquetar al tener todo lo necesario en el mismo archivo. 
+
+- **ACLARACIÓN**: Apliqué useContext() y me ayudé de un provider para alimentar al proyecto sólo para practicar. Al ser un proyecto pequeño, no es necesario aplicar este hook.
 
 # Autor
 
